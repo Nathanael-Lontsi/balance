@@ -4,8 +4,8 @@ const scale = document.querySelector('.scale')
 const btn2 = document.querySelector('.btn2')
 
 function myFunction () {
-  const unable = document.getElementById('input1').disabled;
-  document.getElementById('input2').disabled;
+  const unable = document.getElementById('input1').disabled
+  document.getElementById('input2').disabled
   console.log(unable)
 }
 
