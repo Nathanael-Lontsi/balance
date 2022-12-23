@@ -1,11 +1,12 @@
 const input1 = document.getElementById('input1')
 const input2 = document.getElementById('input2')
 const scale = document.querySelector('.scale')
+const btn1 = document.querySelector('.btn1')
 const btn2 = document.querySelector('.btn2')
 
-function myFunction () {
-  const unable = document.getElementById('input1').disabled
-  document.getElementById('input2').disabled
+btn1.onclick = function disableBtn () {
+  const unable = document.getElementById('input1').disabled = true
+  document.getElementById('input2').disabled = true
   console.log(unable)
 }
 
