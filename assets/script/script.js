@@ -23,7 +23,7 @@ btn2.onclick = function getOption () {
       if (weight1 === weight2) {
         scale.innerHTML = 'Balance'
       } else if (weight1 + parseInt(n[2]) === weight2 + parseInt(n[1])) {
-        scale.innerHTML = 'Balance'
+        scale.innerHTML = `${n[i]}, ${n[j]}`
       } else {
         scale.innerHTML = 'Scale Imbalanced'
       }
