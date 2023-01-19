@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background: #d3d3d3;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  height: 100%;
+  width: 55%;
+}
+
+.balance {
+  margin: 0 auto;
+  width: 90%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+input {
+  font-size: 18px;
+  padding: 10px;
+  width: 50%;
+}
+
+.input-field {
+  display: flex;
+  gap: 20px;
+}
+
+.btn1 {
+  background: #a9a9a9;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.btn2 {
+  background: #c0c0c0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 28%;
+  margin-top: 40px;
+  padding: 10px 20px;
+}
+
+.scale {
+  background: #f0ffff;
+  font-size: 40px;
+  height: 40%;
+  margin: 40px;
+  padding: 90px;
+  text-align: center;
+  width: 89%;
+}
+
+@media screen and (max-width: 1024px) {
+  .scale {
+    width: 85%;
+  }
+
+  .btn2 {
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  input {
+    font-size: 15px;
+  }
+
+  .input-field {
+    gap: 10px;
+  }
+
+  .btn1 {
+    font-size: 15px;
+  }
+
+  .btn2 {
+    font-size: 15px;
+    margin-left: 15%;
+  }
+
+  .scale {
+    font-size: 30px;
+    width: 88%;
+    margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  input {
+    font-size: 10px;
+  }
+
+  .btn1 {
+    font-size: 10px;
+  }
+
+  .btn2 {
+    font-size: 10px;
+    margin-left: 3%;
+  }
+
+  .scale {
+    font-size: 15px;
+    width: 88%;
+    margin-left: 15px;
+  }
+}
